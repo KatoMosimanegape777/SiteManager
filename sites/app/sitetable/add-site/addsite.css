@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+  .input {
+    padding: 8px 16px;
+    color: white;
+    width: 180px;
+    border: 1px solid #3e3d40;
+    background-color: #262628;
+    border-radius: 10px;
+  }
+
+  .SelectInput {
+    padding: 8px 16px;
+    color: white;
+    width: 215px;
+    border: 1px solid #3e3d40;
+    background-color: #262628;
+    border-radius: 10px;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: white;
+    width: 215px;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    border: 1px solid #3e3d40;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container {
+    background-color: #18181b;
+    width: 440px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #272628;
+    max-height: 730px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  /* add user */
+  .select {
+    padding: 8px 16px;
+    color: white;
+    width: 214px;
+    border: 1px solid #3e3d40;
+    background-color: #262628;
+    border-radius: 10px;
+  }

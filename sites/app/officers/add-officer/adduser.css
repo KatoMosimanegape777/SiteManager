@@ -1,0 +1,9 @@
+  /* add user */
+  .select {
+    padding: 8px 16px;
+    color: white;
+    width: 214px;
+    border: 1px solid #3e3d40;
+    background-color: #262628;
+    border-radius: 10px;
+  }

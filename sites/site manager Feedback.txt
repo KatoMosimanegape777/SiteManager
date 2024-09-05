@@ -1,0 +1,15 @@
+1.	Botswana Logo should appear first in the login. Logins should be integrated to with AD
+2.	some sites have multiple subnets we should include associated subnets. e.g hospital serowe.
+3.	no deletion but achieve the site so there is a history to look back if the site is no longer active.
+4.	regular users should be able to make notes on the sites if there if more info relevant to that site.
+5.	the site manager should be interlinked with nageos if sites get renamed it should update both in nageos.
+
+
+on the Sites in the database add these values: { show: false, Edit: "" }
+	{ show: false } this will allow us to hide & unhide the site instead of deleting and we can log who did 
+			       the modification in the e.g  { edit: "kago@mail.com achieved this site " } key.
+
+on the Sites the database add these value: { notes: "site was changed from vsat to fibre"}
+	this is to give context on future investigation on what may have happened to the site.
+	on the website to write a note just double click on the site row and click on button written 
+	edit then a text box gets enabled the the user can write a note then save.

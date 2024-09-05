@@ -1,0 +1,165 @@
+html {
+    background-color: #1E1D20;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+.tableheader1 {
+    border-radius: 12px 0 0 12px;
+    border-bottom: 1px solid #3e3d40;
+    border-top: 1px solid #3e3d40;
+    border-left: 1px solid #3e3d40;
+}
+.tableheader2 {
+    border-radius: 0px 12px 12px 0px;
+    border-bottom: 1px solid #3e3d40;
+    border-top: 1px solid #3e3d40;
+    border-right: 1px solid #3e3d40;
+}
+thead {
+    border: 1px solid #18181b;
+}
+
+.LoadingScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    color: white;
+    background-color: #1E1D20;
+}
+.redtext {
+    color: red;
+    margin: auto;
+}
+.bluetext {
+    color: #007bff;
+    margin: auto;
+}
+
+/* Navbar.module.css */
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8%;
+  background-color: #18181b;
+  color: white;
+  font-weight: bold;
+  position: sticky;
+  border-bottom: 1px solid #272628;
+  top: 0;
+  z-index: 1000;
+}
+
+.navLinks {
+  display: flex;
+  margin: 0 0 0 50px;
+  gap: 15px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.navLink:hover {
+  background-color: #262628;
+}
+
+.navLink.active {
+  background-color: #444;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoutLink {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #18181b;
+  border: 1px solid #18181b;
+  color: #f73c3c;
+}
+
+.logoutLink:hover {
+  background-color: #262628;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+/* add schools.js */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.input {
+  padding: 8px 16px;
+  color: white;
+  width: 180px;
+  border: 1px solid #3e3d40;
+  background-color: #262628;
+  border-radius: 10px;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: white;
+  width: 215px;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  border: 1px solid #3e3d40;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  background-color: #18181b;
+  width: 440px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #272628;
+  max-height: 730px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+/* add user */
+.select {
+  padding: 8px 16px;
+  color: white;
+  width: 214px;
+  border: 1px solid #3e3d40;
+  background-color: #262628;
+  border-radius: 10px;
+}
+
+/* login */
